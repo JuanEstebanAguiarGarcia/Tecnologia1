@@ -1,0 +1,132 @@
+body{
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.foto:hover {
+  transform: scaleX(-1);
+}
+.foto{
+	position: absolute;
+	top:50px;
+	width: 300px;
+	height: 300px;
+	left: 100px;
+	border-style: double;
+	border-radius: 100%;
+
+	
+}
+
+.descrip{
+	position: absolute;
+	font-size: 38px;
+	top: 50;
+	height: 345px;
+	width: 550px;
+	border-style: double;
+  border-color: #2E64FE;
+  background-color: #81F7F3;
+	left: 700px;
+	opacity: 1;
+	font-family: georgia;
+}
+
+.peri{
+
+	position: absolute;
+	top: 400px;
+	height: 250px;
+	width: 1250px;
+	border-style: dotted;
+	left: 300px;
+	background-color: #2E64FE;
+	font-size: 40px;
+font-family: forte;
+
+}
+
+.p1{
+	position: absolute;
+	display: block;
+	top: 535px;
+	height: 50px;
+	width: 150px;
+	border-style: dashed;
+	left: 400px;
+	background-color: #58FAF4;
+	font-size: 36px;
+	opacity: 0.5;
+	z-index: 2;
+	font-family: forte;
+	color: black;
+
+}
+
+.p1:hover{
+	opacity: 1;
+	font-family: impact;
+}
+
+.p2{
+	position: absolute;
+	display: block;	
+	top: 500px;
+	height: 50px;
+	width: 150px;
+	border-style: dashed;
+	font-size: 36px;
+	left: 700px;
+	background-color: #58FAF4;
+	opacity: 0.5;
+	font-family: forte;
+	color: black;
+
+
+}
+.p2:hover{
+	opacity: 1;
+	font-family: impact;
+}
+
+.p3{
+	position: absolute;
+	display: block;	
+	top: 535px;
+	height: 50px;
+	width: 150px;
+	border-style: dashed;
+	left: 1000px;
+	font-size: 36px;
+	background-color: #58FAF4;
+	opacity: 0.5;
+	font-family: forte;
+	color: black;
+
+}
+.p3:hover{
+	opacity: 1;
+	font-family: impact;
+}
+
+.p4{
+	position: absolute;
+	display: block;	
+	top: 535px;
+	height: 50px;
+	width: 150px;
+	border-style: dashed;
+	font-size: 36px;
+	left: 1300px;
+	background-color: #58FAF4;
+	opacity: 0.5;
+	font-family: forte;
+	color: black;
+
+}
+.p4:hover{
+	opacity: 1;
+	font-family: impact;
+}
